@@ -12,5 +12,6 @@ The output will look like this:
 The K value is the number of clusters used to find a matching answer. A higher number means that the answer is more specific to the question. The bot seems to work better with longer questions.
 
 Some things that might make this more efficient:
-* Using stop words/soundex/etc
+* Using stop words/soundex/etc.
 * Doing some supervided clustering. Right now the answers are somewhat organized in the filesystem, but that was only to make it easier to compile them. When we process them, they're all mixed together with no labelling at all.
+* A lot more answers!
